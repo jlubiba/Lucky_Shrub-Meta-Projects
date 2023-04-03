@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: auto;
+}
+
+header{
+    text-align: center;
+}
+
+header > img{
+    width: 3rem;
+    align-items: center;
+    margin: 1rem auto;
+}
+
+/* Nav Section */
+
+.nav-container{
+    background-color: aqua;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.nav-container li{
+    list-style: none;
+    flex: 1;
+}
+
+.nav-container a{
+    display: inline-block;
+    width: 100%;
+    padding: 5% 0;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-container a:hover{
+    background-color:rgb(62, 92, 92);
+    color: gold;
+}
+
+/* Main section */
+
+main{
+    width: 90%;
+    margin: auto;
+}
+
+main > *{
+    margin: 1% 0;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* First section */
+
+#main-section{
+    display: flex;
+    overflow: hidden;
+    border-radius: 1rem;
+    background-color: silver;
+}
+
+#main-section-title{
+    text-shadow: 2px 2px 15px gold;
+}
+
+#main-section p{
+    margin: 6% 0;
+}
+
+#main-section-text{
+    background-image: url(images/nursery_plant.png);
+    background-size: cover;
+    color: white;
+    padding: 3%;
+    width: 100%;
+}
+
+.tbutton{
+    padding: 1%;
+    text-decoration: none;
+    background-color: white;
+    color: red;
+    border: solid;
+    border-radius: 3rem;
+    font-weight: bold;
+}
+
+.tbutton:hover{
+    background-color: red;
+    color: white;
+    font-weight: lighter;
+}
+
+.tbutton:active{
+    background-color: white;
+    color: red;
+    font-weight: lighter;
+}
+
+/* Second section */
+
+.secondary-section-box{
+    text-decoration: none;
+    color: black;
+}
+
+#secondary-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+.secondary-section-text > *{
+    padding: 4% 6%;
+}
+
+.secondary-section-image{
+    background-color: aquamarine;
+    width: 100%;
+    height: 50%;
+}
+
+#secondary-section article{
+    margin: 1% 0;
+    border: solid rgb(204, 204, 204);
+    border-radius: 1rem;
+    overflow: hidden;
+    width: 21rem;
+}
+
+#secondary-section article:hover{
+    background-color: rgb(234, 234, 234);
+}
+
+.call-to-action{
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Footer section */
+
+footer{
+    display: flex;
+    position: relative;
+    bottom: 0;
+    margin: 2% auto 0;
+    align-items: center;
+    text-align: center;
+}
+
+footer div{
+    flex: 1;
+}
+
+footer img{
+    height: 3rem;
+}
